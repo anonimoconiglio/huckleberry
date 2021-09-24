@@ -10,3 +10,17 @@ body {
 }
 
 /* Add styles here! */
+
+
+/* Typography related rules */
+
+.title {
+	font-size: 2rem;
+	font-weight: 900;
+}
+.intro-chunk p {
+	font-size: 1.25rem;
+}
+.intro-chunk p strong {
+	color: hsl(160, 100%, 30%);
+}
