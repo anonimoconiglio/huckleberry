@@ -24,3 +24,45 @@ body {
 .intro-chunk p strong {
 	color: hsl(160, 100%, 30%);
 }
+
+
+/* Layout related rules */
+
+header, main {
+	padding-top: 64px;
+	padding-bottom: 48px;
+}
+header div.intro-chunk,
+main div.card {
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.max-width-wrapper {
+	max-width: 600px;
+	margin: auto;
+}
+header div.intro-chunk {
+	max-width: 70%;
+}
+
+header h1.title {
+	margin-bottom: 48px;
+}
+
+main {
+	border-top: 8px solid hsl(0, 0%, 40%) ;
+	background-color: hsl(0, 0%, 60%);
+}
+
+div.card {
+	padding-top: 8px;
+	padding-bottom: 32px;
+}
+.card .indented-heading {
+	padding: 16px 48px;
+	margin-top: 0;
+	margin-left: -48px;
+}
+
+
