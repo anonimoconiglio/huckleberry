@@ -66,3 +66,14 @@ div.card {
 }
 
 
+/* Card related ART styles */
+
+div.card {
+	background:hsl(0, 0%, 100%);
+	border-bottom: 8px solid hsl(0, 0%, 40%);
+}
+.card .indented-heading {
+	max-width: max-content;
+	background-color: hsl(45, 100%, 50%);
+	border-bottom: 8px solid hsl(45, 100%, 40%);
+}
